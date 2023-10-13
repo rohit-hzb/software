@@ -1,0 +1,257 @@
+
+nav{
+color: white;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+}
+nav ul li{
+    /* text-align: right; */
+    padding: 23px;
+}
+#main::before{
+    content: "";
+    background: url("./image/banner.png") no-repeat center/cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    height: 100vh;
+    width: 100vw;
+}
+#main{
+    display: flex;
+}
+.left{
+    padding: 100px;
+    color: white;
+    width: 400px;
+}
+.right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 176px;
+}
+.button{
+    padding: 12px;
+    width: 200px;
+    border: 5px solid white;
+}
+.text {
+    text-align: center;
+}
+.text1{
+    margin-top: 80px;
+    color: blue;
+    text-align: center;
+}
+.box1{
+    display: flex;
+    height: 300px;
+    /* border: 2px solid gray; */
+    margin: 0 20px;
+   justify-content: space-between;
+}
+.box2{
+    border-radius: 2px solid gray;
+    border: 0.5px solid gray;
+    margin: 12px;
+    padding: 12px;
+}
+.box3{
+    border: 0.5px solid gray;
+    margin: 12px;
+    padding: 12px;
+    border-top: 23px solid #132577;    
+}
+.box4{
+    color: white;
+    border: 0.4px solid gray;
+    margin: 12px;
+    padding: 12px;
+    background-color: blue;  
+}
+.box4 a{
+    color: white;
+}
+.second-section{
+    display: flex;
+    height: 200px;
+    margin:40px;
+    justify-content: space-around;
+    text-align: center;
+}
+/* third section */
+.third-section{
+    margin: 70px;
+    display: flex;
+}
+.third-left{
+    /* height: 23px; */
+    width: 600px;
+}
+.first img{
+  height: 300px;
+  position: absolute;
+  right: 160px;
+}
+.second img{
+    height: 300px;
+    position: relative;
+    top: 90px;
+    left:130px;
+}
+.grad{
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+}
+/* section-fourth */
+.section-fourth{
+    margin: 45px;
+    display: flex;
+    flex-direction: column;
+}
+.center{
+    margin-top: 60px;
+}
+.section-fourth img{
+    height: 250px;
+}
+.center{
+    text-align: center;
+}
+.fourth{
+    display: flex;
+    margin: 23px;
+}
+.box5{
+    color: blue;
+}
+.box6{
+   padding: 10px;
+}
+.blue{
+    border-radius: 15px solid white;
+    padding: 10px;
+    width: 200px;
+    color:white;
+    background-color: #132577;
+}
+
+/* fifth section */
+.head{
+    text-align: center;
+    justify-content: center;
+}
+.fifth{
+    margin: 70px;
+    display: flex;
+    flex-direction: row;
+}
+.fifth p{
+    text-align: center;
+}
+.para{
+    margin: 30px;
+}
+.star{
+    height: 350px;
+    margin: 23px;
+    text-align: center;
+    justify-content: center;
+    justify-content: space-around;
+    box-shadow: 1px 2px 5px gainsboro;
+}
+.para1{
+    font-size: 50px;
+}
+/* six section------------------------- */
+.six{
+    margin:150px 100px ;
+    /* margin: 23px; */
+    display: flex;
+}
+.right1{
+    width: 800px;
+}
+/* seven section--------------------- */
+.hader{
+    text-align: center;
+    justify-content: center;
+}
+.seven{
+    display: flex;
+    height: 650px;
+    margin: 23px;
+}
+.seven1{
+    padding:10px;
+}
+.card-1{
+    display: flex;
+    flex-direction: column;
+    width: 33%;
+    margin: 23px;
+    box-shadow: 2px 5px 20px rgb(230, 226, 226);
+}
+.card-1 img{
+    width: 100%;
+}
+.box8{
+    text-align: center;
+    align-items: center;
+     display: flex;
+    flex-direction: column;
+}
+.box{
+    text-align: center;
+    justify-content: center;
+}
+.photo{
+ padding: 40px;
+}
+/* footer -------------------------------------------------------------------------------------- */
+footer{
+    background-color: #132577;
+    height: 500px;
+    margin-top: 100px;
+}
+.footer0{
+    color: gray; 
+}
+footer ul{
+    list-style: none;
+    color: white;
+}
+footer li{
+    list-style: none;
+    padding:14px 0 23px;
+    color: white;
+}
+footer p{
+    color: white;
+}
+.footer{
+    display: flex;
+    padding: 30px;
+    justify-content: space-between;
+}
+.last{
+    display: flex;
+}
+.last{
+    padding-left: 30px;
+    display:flex;
+    color: ghostwhite;
+    justify-content:space-between;
+}
+.last p{
+    color: gray;
+}
+.right{
+    margin-right: 24px;
+}
+
